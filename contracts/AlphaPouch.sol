@@ -15,9 +15,9 @@ contract AlphaPouch is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    uint256 public constant TOTAL_SUPPLY = 2;
+    uint256 public constant TOTAL_SUPPLY = 50;
 
-    string combinedWord = "Limited";
+    string combinedWord = "Ouch!";
 
     string image =
         string(
